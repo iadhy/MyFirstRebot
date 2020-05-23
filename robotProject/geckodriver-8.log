@@ -1,0 +1,36 @@
+1590202637684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kharr\\AppData\\Local\\Temp\\rust_mozprofileYdWuLC"
+1590202638151	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590202638188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590202638188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590202638189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590202638189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590202640873	Marionette	INFO	Listening on port 56148
+1590202641302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590202644553	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+send@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:81476
+ajax@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:77295
+k._evalUrl@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:79350
+Ie@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:48088
+append@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:49520
+html/<@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:50612
+_@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:31840
+html@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:50290
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:997:36
+c@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:27742
+fireWith@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:28487
+l@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:78789
+o/<@https://opensource-demo.orangehrmlive.com/webres_5e7b15c4882d04.47780062/js/jquery/jquery-3.4.1.min.js:2:81117
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:587:5\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1590202974627	Marionette	INFO	Stopped listening on port 56148
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
